@@ -1,0 +1,23 @@
+{
+  "name": "Hapitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "chai": "^4.3.6",
+    "hapi": "^18.1.0",
+    "inject-then": "^2.0.9",
+    "jest": "^24.9.0",
+    "joi": "^17.6.2",
+    "mocha": "^10.0.0",
+    "monk": "^7.3.4"
+  }
+}
